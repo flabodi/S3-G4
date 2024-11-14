@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(29, 89, 29, 0.627);
+}
+
+#tabellone {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    gap: 5px;
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+#tabellone div {
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#tabellone .estratto {
+    background-color: rgb(160, 31, 72);
+}
+
+
+button {
+    border-radius: 50%;
+    background-color: rgba(102, 195, 226, 0.8);
+    padding: 20px;
+    font-weight: bold;
+    color: #551616;
+    margin: 10px;
+    
+}
+
+.numero-estratto {
+    color: white;
+    font-weight: 400;
+}
+
+h1{
+    background-color: #333;
+   margin: 0;
+   height: 60px;
+   padding-top:  30px;
+   color: #f0f0f0b8;
+}
